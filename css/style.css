@@ -1,0 +1,854 @@
+/* COMMON CSS START */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+.clr {
+  clear: both;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* COMMON CSS END */
+/* BACK TO TOP CSS FUNCTION START  */
+.back-to-top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+}
+
+.back-to-top i {
+  font-size: 40px;
+  color: #5c12cc;
+}
+
+.sticky_header {
+  animation: smooth 1s;
+  background: rgba(11, 0, 27, 0.9);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@keyframes smooth {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0;
+  }
+}
+/* BACK TO TOP CSS FUNCTION END */
+
+
+/* navbar part start  */
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* z-index: 99999; */
+}
+ .nav-link {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #944bff;
+  margin-top: 50px;
+  margin-right: 50px;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+.navbar .nav-link:hover {
+  color: #ff39dc;
+}
+.navbar .nav_icons {
+  margin-top: 50px;
+}
+.navbar .nav_icons a {
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  margin-right: 20px;
+  padding: 10px 20px;
+  background-color: #8032e6;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #3a0090;
+  -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+  -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+  transition: 0.4s;
+}
+.navbar .nav_icons a:hover {
+  background-color: #ff39dc;
+  box-shadow: 0px 3px 5px 0px #661355;
+  -webkit-box-shadow: 0px 5px 5px 0px #661355;
+  -moz-box-shadow: 0px 5px 5px 0px #661355;
+}
+/* navbar part end  */
+
+/* BANNER PART START   */
+#banner_part {
+  background: #150035;
+  padding: 175px 0 220px 0;
+}
+/* .wheel_img{
+  position: relative;
+} */
+.wheel_img img{
+  left: -170px;
+  top: 0;
+  position: relative;
+}
+.banner_text h6{
+  font-size:20px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 90px;
+}
+.banner_text h5{
+  font-size:331px;
+  font-weight: 400;
+  font-family: 'Anton', sans-serif;
+  color: #fcb100;
+  margin-top: 20px;
+  margin-left: -5px;
+  text-transform: capitalize;
+  
+}
+.banner_text p{
+  font-size:16px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 26px;
+margin: 40px 38px 0 36px;
+}
+.baton a{
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  margin: 30px 0px 0px 180px;
+  padding: 10px 20px;
+  background-color: #8032e6;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #3a0090;
+  -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+  -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+  transition: 0.4s;
+  border-bottom: 5px#3a0090;
+  transition: 0.4s;
+}
+.baton a:hover{
+  background-color: #ff39dc;
+  box-shadow: 0px 3px 5px 0px #661355;
+  -webkit-box-shadow: 0px 5px 5px 0px #661355;
+  -moz-box-shadow: 0px 5px 5px 0px #661355;
+}
+
+
+
+/* BANNER PART END   */
+
+/* SERVICE PART START  */
+#service_part{
+  padding: 180px 0px 90px 0px;
+  background: #0b001b;
+}
+#service_part .process_part {
+  position: relative;
+}
+#service_part .process_part .process_items {
+  background-image: linear-gradient(45deg, #9e4efc -600%, #570dc8 100%);
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: -280px;
+  width: 100%;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+}
+#service_part .process_part .process_items .processes {
+  background-image: linear-gradient(45deg, #9e4efc -600%, #570dc8 100%);
+  padding: 45px 0;
+}
+#service_part .process_part .process_items .processes .step_number h3 {
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fcb100;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}
+#service_part .process_part .process_items .processes .step_criteria {
+  margin-top: 27px;
+  margin-bottom: 17px;
+}
+#service_part .process_part .process_items .processes .step_criteria h4 {
+  font-size: 32px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+}
+#service_part .process_part .process_items .processes .step_text p {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* ...........................GAME RELATED PART START......................... */
+ .card_text{
+  font-size: 48px;
+  font-weight: 400;
+  color: #fdbe0a;
+  font-family: 'Anton', sans-serif;
+ }
+
+
+.game_card_item{
+  position: relative;
+}
+.card_overly{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #150035b5;
+  opacity: 1;
+  visibility: visible;
+}
+ .card_img h3{
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Anton', sans-serif;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+ }
+ .card_img a{
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  background-color: #8032e6;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #3a0090;
+  -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+  -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+  transition: 0.4s;
+  border-bottom: 5px#3a0090;
+  transition: 0.4s;
+  top: 240px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+ }
+.game_card_item .card_img img .card_overly h3 a:hover{
+  /* visibility: visible;
+  opacity: 1; */
+ 
+}
+/* ...........................GAME RELATED PART end......................... */
+
+
+/* SERVICE PART END */
+
+
+
+
+/* ----------------------------------CARD SPAIN PART START  */
+#spain_part{
+  padding: 100px 0px 60px 0px ;
+  background: #150035;
+}
+.spain_text h3{
+  font-size: 48px;
+  font-weight: 400;
+  color: #fdbe0a;
+  font-family: 'Anton', sans-serif;
+  margin-top: 65px;
+}
+.spain_text p{
+  font-size:16px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 26px;
+ margin-top: 70px;
+}
+.spain_text h6{
+  font-size:16px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 26px;
+  margin-top: 40px;
+}
+.spain_text a{
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  background-color: #8032e6;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #3a0090;
+  -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+  -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+  transition: 0.4s;
+  border-bottom: 5px#3a0090;
+  transition: 0.4s;
+  margin-top: 60px;
+}
+.spain_text a:hover{
+  background-color: #ff39dc;
+  box-shadow: 0px 3px 5px 0px #661355;
+  -webkit-box-shadow: 0px 5px 5px 0px #661355;
+  -moz-box-shadow: 0px 5px 5px 0px #661355;
+}
+/* --------------------------------------------CARD SPAIN PART END */
+
+
+
+
+/* <!-- ++++++++++++++++++++++++++++++++++ PRICING PLAN PART START +++++++++++++++++++++++++++++++++ --> */
+#pricing_part{
+  padding: 100px 0px 50px 0px;
+  background: #0b001b;
+}
+.pricing_heading_text h3{
+  font-size: 48px;
+  font-weight: 400;
+  color: #fdbe0a;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 50px;
+}
+
+
+.pricing_box{
+  padding: 60px 0px;
+  background-image: linear-gradient(#9142f3, #5b11cb);
+  border-radius: 10px;
+  position: relative;
+}
+.pricing_box_text h3{
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Anton', sans-serif;
+  padding-top: 30px;
+}
+.pricing_box_text h6{
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 25px;
+
+
+}
+.pricing_box_text p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.border_bottom{
+  height: 1px;
+  width: 100%;
+  background: #0b001b;
+}
+.pricing_box_text h5{
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 40px;
+  margin: 30px 114px 0px 114px;
+}
+.pricing_baton a{
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  background-color: #8032e6;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #3a0090;
+  -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+  -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+  transition: 0.4s;
+  border-bottom: 5px#3a0090;
+  transition: 0.4s;
+
+}
+.pricing_baton a:hover{
+  background-color: #ff39dc;
+  box-shadow: 0px 3px 5px 0px #661355;
+  -webkit-box-shadow: 0px 5px 5px 0px #661355;
+  -moz-box-shadow: 0px 5px 5px 0px #661355;
+}
+
+
+.pricing_baton a{
+  position: absolute;
+   margin-left: 135px;
+   margin-top: 35px;
+   
+}
+
+.box_two_modify{
+ margin-top: 84px;
+  position: relative;
+}
+
+.featured_box{
+  padding: 30px 160px;
+  background: #ff39dc;
+  border-bottom: 5px solid #661355 ;
+  border-radius: 5px;
+  position: absolute;
+  margin-bottom: 20px;
+  
+}
+.featured_box h4{
+  font-style: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+/* <!-- ++++++++++++++++++++++++++++++++++ PRICING PLAN PART end +++++++++++++++++++++++++++++++++ --> */
+
+
+/* <!-- ;;;;;;;;;;;;;;;;; DEMAND  AND TOURNAMENT PART START ;;;;;;;;;;;;;;;;;;;;;;;;;; --> */
+#demand{
+  padding: 100PX 0PX ;
+  background: #150035;
+}
+.demand_heading h3{
+  font-size: 40px;
+  font-weight: 400;
+  color: #fdbe0a;
+  font-family: 'Anton', sans-serif;
+}
+.demand_heading_tournament h3{
+  font-size: 40px;
+  font-weight: 400;
+  color: #fdbe0a;
+  font-family: 'Anton', sans-serif;
+}
+.demand_border{
+  height: 2px;
+  width: 100%;
+  background: #0b001b;
+  margin-top: 30px ;
+  
+}
+
+.demand_item  ul li button{
+  font-style: 20px;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  display: block;
+ 
+}
+.dropdown_btn{
+  /* text-decoration: none; */
+  border: none;
+  background: none;
+
+}
+.dropdown_btn .icon_one{
+  padding-left: 270px;
+  vertical-align: middle;
+  color: #ffffff;
+}
+ .demand_item .dropdown_contaner p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 26px;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+       
+
+.countdown h3{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.countdown h4{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+  color: #fcb100;
+  text-align: center;
+  padding: 10px 5px;
+  border: 1px solid #fcb100;
+  line-height: 26px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.perticipate_person h3{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+}
+.perticipate_person img{
+ margin-left: 20px;
+}
+.perticipate_person p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  color: #ffffff;
+}
+
+
+/* <!-- ;;;;;;;;;;;;;;;;; DEMAND  AND TOURNAMENT PART end ;;;;;;;;;;;;;;;;;;;;;;;;;; --> */
+
+
+ 
+/* <!-- subscribes and payment method part start  --> */ 
+
+#subscribe_part{
+  padding: 30px 0;
+  background-image: linear-gradient(#9142f3, #5b11cb);
+  border-bottom: #3a0090;
+
+}
+.subscribe_text_emal h3{
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+ 
+}
+
+.email_form input[type=email]{
+  width: 100%;
+  padding: 15px 15px ;
+  background: transparent;
+  border: 2px solid #3a0090;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  color: #3a0090;
+}
+/* .email_form a{
+  border: 2px solid #3a0090;
+  margin-top: 24px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  width: 100%;
+  color: #3a0090;
+  text-align: center;
+}
+.email_form a i{
+  vertical-align: middle;
+} */
+
+
+
+.subscribe_payment h3{
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+}
+
+.payment_img img {
+  margin-right: 15px;
+}
+/* <!-- subscribes and payment method part end  --> */
+
+/* footer part start 1111111111111111111111111111 */
+#footer_part{
+  padding: 60px 0px;
+  background: #0b001b;
+}
+.about_jackpot_text h3{
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+}
+.about_jackpot_text p{
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 24px;
+  margin: 30px 0px 30px 0px;
+}
+.baton_icon a {
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  background-color: #8032e6;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #3a0090;
+  -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+  -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+  transition: 0.4s;
+  border-bottom: 5px#3a0090;
+  transition: 0.4s;
+  margin-right: 15px;
+
+}
+.baton_icon a:hover{
+  background-color: #ff39dc;
+  box-shadow: 0px 3px 5px 0px #661355;
+  -webkit-box-shadow: 0px 5px 5px 0px #661355;
+  -moz-box-shadow: 0px 5px 5px 0px #661355;
+}
+.important_link_text h3{
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 25px;
+}
+.important_link_text ul{
+  padding-left: 0 !important;
+}
+.important_link_text ul li a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 40px;
+  margin-left: 0 !important;
+  display: block;
+}
+  
+.security_info_text h3{
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 25px;
+}
+.security_info_img{
+  margin-bottom: 30px;
+}
+.security_text p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 26px;
+margin-top: 15px;
+}
+.security_text h6{
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 26px;
+  margin-top: 50px;
+  
+}
+
+.footer_border{
+ 
+  border-bottom: 2px solid #570dc8;
+}
+/* footer part end 1111111111111111111111111111 */
+
+/* <!-- copyright part start#############################  --> */
+#copyright_part{
+  padding: 30px;
+  background: #0b001b;
+}
+.copyright_text p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffffff;
+  font-family: 'Nunito', sans-serif;
+}
+/* <!-- copyright part end#############################  --> */
+      
+
+
+
+
+/* 11111111111111111111111111111111111 about part start 11111111111111111111111 */
+.banner_text h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #fdbe0a;
+  font-family: 'Anton', sans-serif;
+  margin-top: 60px;
+
+}
+.banner_text a{
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Anton', sans-serif;
+margin-top: 15px;
+}
+.banner_text i{
+  vertical-align: middle ;
+  color: #ffffff !important;
+}
+.spain_text .watch_demo{
+  background: transparent;
+  box-shadow: none;
+  margin-left: 20px;
+}
+#about_spain_part{
+  padding: 100px 0px;
+  background: #0b001b;
+}
+#game_part{
+  padding: 100px 0px;
+  background: #150035;
+}
+/* 11111111111111111111111111111111111 about part end 11111111111111111111111 */
+
+
+         /* 2222222222222222222222222222 conract part start 222222222222222222222222222 */
+        
+#contact_service_part {
+  background: url(../images/contact_service_img.jpg);
+  padding-top: 250px;
+  padding-bottom: 125px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#contact_service_part .process_part {
+  position: relative;
+}
+#contact_service_part .process_part .process_items {
+  background-image: linear-gradient(45deg, #9e4efc -600%, #570dc8 100%);
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: -353px;
+  width: 100%;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+}
+#contact_service_part .process_part .process_items .processes {
+  background-image: linear-gradient(45deg, #9e4efc -600%, #570dc8 100%);
+  padding: 45px 0;
+}
+#contact_service_part .process_part .process_items .processes .step_number h3 {
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fcb100;
+  text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+}
+#contact_service_part .process_part .process_items .processes .step_criteria {
+  margin-top: 27px;
+  margin-bottom: 17px;
+}
+#contact_service_part .process_part .process_items .processes .step_criteria h4 {
+  font-size: 32px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+}
+#contact_service_part .process_part .process_items .processes .step_text p {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+#contact_service_part .contact_info_icon a {
+  height: 100px;
+  width: 100px;
+  background-color: #8032e6;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #3a0090;
+  -webkit-box-shadow: 0px 5px 5px 0px #3a0090;
+  -moz-box-shadow: 0px 5px 5px 0px #3a0090;
+  transition: 0.4s;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+  position: relative;
+}
+#contact_service_part .contact_info_icon a i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#contact_service_part .contact_info_icon a:hover {
+  background-color: #ff39dc;
+  box-shadow: 0px 3px 5px 0px #661355;
+  -webkit-box-shadow: 0px 5px 5px 0px #661355;
+  -moz-box-shadow: 0px 5px 5px 0px #661355;
+}
+#contact_service_part .contact_info_text h3 {
+  font-size: 24px;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+}
+#contact_service_part .contact_info_text p {
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: 25px;
+  line-height: 26px;
+}
+
+         /* 2222222222222222222222222222 contact part end 222222222222222222222222222 */
